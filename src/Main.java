@@ -6,15 +6,15 @@ public class Main {
     // 3_ polimorfizm-> çok biçimlilik
     public static void main(String[] args) {
 
-        KaplanEylemleri kaplanEylemleri= new KaplanEylemleri();
-        kaplanEylemleri.hareketEt();
-        kaplanEylemleri.yemekYe();
-        kaplanEylemleri.hareketEt();
+        YunusEylemleri y=new YunusEylemleri();
+       KaplanEylemleri k= new KaplanEylemleri();
 
-        YunusEylemleri yunusEylemleri= new YunusEylemleri();
-        yunusEylemleri.yemekYe();
+        test(y);
 
+    }
 
+    public static void test(HayvanEylemleri he){
+        he.hareketEt();
     }
 
 }
