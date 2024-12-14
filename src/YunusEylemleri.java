@@ -1,3 +1,5 @@
+import ozellikler.Kaplan;
+
 public class YunusEylemleri implements HayvanEylemleri {
 
     @Override

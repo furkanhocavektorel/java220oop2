@@ -1,3 +1,5 @@
+import ozellikler.Kaplan;
+
 public interface HayvanEylemleri {
 
 

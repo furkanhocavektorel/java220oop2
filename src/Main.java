@@ -1,4 +1,5 @@
 import ozellikler.Guvercin;
+import ozellikler.Kaplan;
 
 public class Main {
     // 1_ kapsülleme
@@ -6,10 +7,13 @@ public class Main {
     // 3_ polimorfizm-> çok biçimlilik
     public static void main(String[] args) {
 
-        YunusEylemleri y=new YunusEylemleri();
-       KaplanEylemleri k= new KaplanEylemleri();
 
-        test(y);
+        Kaplan kaplan= new Kaplan();
+        kaplan.ad="diego2";
+
+        KaplanEylemleri k= new KaplanEylemleri(kaplan);
+
+        test(k);
 
     }
 
