@@ -10,9 +10,7 @@ public class Main {
 
         Kaplan kaplan= new Kaplan();
         kaplan.ad="diego2";
-
         KaplanEylemleri k= new KaplanEylemleri(kaplan);
-
         test(k);
 
     }
